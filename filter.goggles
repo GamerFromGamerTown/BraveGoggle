@@ -1,9 +1,11 @@
-! name: Balanced Filter for Information Reliability
-! description: Downrank disinformation and right-leaning mainstream sources, slightly downrank mainstream outlets, and boost independent and investigative journalism.
+! name: Cat
+! description: meow
 ! public: false
-! author: Your Name or Organization
-! homepage: https://yourhomepage.example.com
+! author: me
+! homepage: N/A
 ! avatar: #2e64a0
+
+/r/cats^$boost=10,site=reddit.com
 
 $downrank=5,site=rt.com
 $downrank=5,site=prageru.com
