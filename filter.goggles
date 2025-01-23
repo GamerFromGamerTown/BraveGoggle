@@ -23,12 +23,15 @@ $downrank=3,site=theblaze.com
 $downrank=3,site=nationalreview.com
 
 $downrank=2,site=cnn.com
-$downrank=2,site=msnbc.com
 $downrank=2,site=abcnews.com
 $downrank=2,site=washingtonpost.com
 $downrank=2,site=nytimes.com
 $downrank=2,site=reuters.com
+$downrank=2,site=cbsnews.com
 
+$downrank=1,site=msnbc.com
+
+$boost=1,site=vox.com
 $boost=2,site=theintercept.com
 $boost=2,site=propublica.org
 $boost=2,site=revealnews.org
