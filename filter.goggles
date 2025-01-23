@@ -1,10 +1,9 @@
-! name: libtard newz
-! description: Rank results to boost content from sources with an AllSides Media Bias Rating™ of Left or Lean Left.
+! name: Balanced Filter for Information Reliability
+! description: Downrank disinformation and right-leaning mainstream sources, slightly downrank mainstream outlets, and boost independent and investigative journalism.
 ! public: false
-! author: gaymer
-! homepage: https://www.github.com/GamerFromGamerTown/
+! author: Your Name or Organization
+! homepage: https://yourhomepage.example.com
 ! avatar: #2e64a0
-
 
 $downrank=5,site=rt.com
 $downrank=5,site=prageru.com
