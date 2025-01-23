@@ -1,0 +1,42 @@
+! name: Balanced Filter for Information Reliability
+! description: Downrank disinformation and right-leaning mainstream sources, slightly downrank mainstream outlets, and boost independent and investigative journalism.
+! public: false
+
+$downrank=5,site=rt.com
+$downrank=5,site=prageru.com
+$downrank=5,site=infowars.com
+$downrank=5,site=stormtrooper.com
+$downrank=5,site=bitchute.com
+$downrank=5,site=thegatewaypundit.com
+$downrank=5,site=americanthinker.com
+$downrank=5,site=frontpagemag.com
+$downrank=5,site=breitbart.com
+
+$downrank=2,site=foxnews.com
+$downrank=2,site=nypost.com
+$downrank=2,site=dailymail.co.uk
+$downrank=3,site=dailywire.com
+$downrank=3,site=theblaze.com
+$downrank=3,site=nationalreview.com
+
+$downrank=2,site=cnn.com
+$downrank=2,site=msnbc.com
+$downrank=2,site=abcnews.com
+$downrank=2,site=washingtonpost.com
+$downrank=2,site=nytimes.com
+$downrank=2,site=reuters.com
+
+$boost=2,site=theintercept.com
+$boost=2,site=propublica.org
+$boost=2,site=revealnews.org
+$boost=2,site=theconversation.com
+$boost=2,site=vice.com
+$boost=2,site=reddit.com
+$boost=2,site=democracynow.org
+$boost=2,site=wikipedia.org
+
+$boost=3,site=currentaffairs.org
+$boost=3,site=jacobinmag.com
+$boost=3,site=commoncause.org
+
+# Optionally add more sources or adjust ranking weights to further tailor this filter.
